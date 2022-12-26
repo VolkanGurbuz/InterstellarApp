@@ -27,8 +27,7 @@ Way to use Spring Data JPA to interact with MySQL Database
 | Git GUI Clients | [Downloads](https://git-scm.com/downloads/guis) | Not required. But can be helpful if new to Git. SourceTree is a good option for Mac and Windows users. |
 
 Class Diagram
-
-Article Manager Class Diagram.jpg![image](https://user-images.githubusercontent.com/24397550/209565295-b6421ea2-84a0-4e51-be96-d3fcecba6005.png)
+InterstellarApp Class Diagram.jpg![image](https://user-images.githubusercontent.com/24397550/209565295-b6421ea2-84a0-4e51-be96-d3fcecba6005.png)
 
 
 
