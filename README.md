@@ -1,6 +1,6 @@
 # InterstellarApp
 
-The application is a web application. It is my personal project. It will be used to create map of the universe knowledge. 
+It is my personal web application project. It will be used to create map of the universe knowledge. 
 
 React.js will be used on front-end side. 
 
