@@ -19,7 +19,7 @@ Way to use Spring Data JPA to interact with MySQL Database
 | ----------- | --------- | ----- |
 | Oracle Java 17 JDK
 | Spring Boot | [Download](https://spring.io/projects/spring-boot) |  |
-| Kotlin    | [Docs](https://kotlinlang.org/docs/home.html) |  |
+| Kotlin    | [Doc](https://kotlinlang.org/docs/home.html) |  |
 | IntelliJ 2018 or Higher | [Download](https://www.jetbrains.com/idea/download/) |  |
 | Maven 3.6.0 or higher | [Download](https://maven.apache.org/download.cgi) | [Installation Instructions](https://maven.apache.org/install.html)|
 | Mysql | [Download](https://dev.mysql.com/downloads/) |
