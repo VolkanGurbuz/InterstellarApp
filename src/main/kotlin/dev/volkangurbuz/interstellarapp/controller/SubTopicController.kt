@@ -1,9 +1,7 @@
 package dev.volkangurbuz.interstellarapp.controller
 
 import dev.volkangurbuz.interstellarapp.db.SubTopicDTO
-import dev.volkangurbuz.interstellarapp.db.TopicDTO
 import dev.volkangurbuz.interstellarapp.repository.SubTopicRepository
-import dev.volkangurbuz.interstellarapp.repository.TopicRepository
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
