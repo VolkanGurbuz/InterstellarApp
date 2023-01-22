@@ -1,6 +1,5 @@
 package dev.volkangurbuz.interstellarapp.db
 
-abstract class TopicEntity{
-    abstract var id: Long
-    abstract var topicName: String
-}
+ data class TopicEntity(
+     val id: Long, val topicName: String
+ )
