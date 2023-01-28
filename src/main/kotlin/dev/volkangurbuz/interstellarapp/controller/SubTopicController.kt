@@ -1,6 +1,6 @@
 package dev.volkangurbuz.interstellarapp.controller
 
-import dev.volkangurbuz.interstellarapp.db.SubTopicDTO
+import dev.volkangurbuz.interstellarapp.db.dto.SubTopicDTO
 import dev.volkangurbuz.interstellarapp.repository.SubTopicRepository
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.PostMapping
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController
 class SubTopicController(val subTopicRepository: SubTopicRepository) {
 
     @PostMapping("/add-sub-topic")
-    fun createTopic(@RequestBody subTopicDTO:SubTopicDTO): ResponseEntity<Unit> {
+    fun createTopic(@RequestBody subTopicDTO: SubTopicDTO): ResponseEntity<Unit> {
         try {
             subTopicRepository.addSubTopic(subTopicDTO.topicEntityId,subTopicDTO.topicName)
             return ResponseEntity.ok().build()
